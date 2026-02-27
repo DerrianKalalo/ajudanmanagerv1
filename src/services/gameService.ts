@@ -2,7 +2,7 @@ import { GameResponse } from '../types';
 
 // Kita tetap menggunakan nama variabel VITE_GEMINI_API_KEY karena Anda sudah telanjur
 // menyettingnya dengan nama ini di Vercel (berisi key sk-or-v1-...)
-const apiKey = "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;
+const apiKey = "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";
 
 if (!apiKey) {
   console.error("🚨 API Key tidak ditemukan!");
